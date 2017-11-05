@@ -1,0 +1,20 @@
+<div class="row">
+    <form action="#">
+        <input type="checkbox" id="extra">
+            <label for="extra">Extra Curricular </label>
+        <input type="checkbox" id="shadowing">
+            <label for="shadow">Professional Shadowing </label>
+        <input type="checkbox" id="research">
+            <label for="research">Research </label>
+        <input type="checkbox" id="volunteering">
+            <label for="volunteering">Volunteering </label>
+   </form> 
+</div>
+-->
+
+<!--Subject Areas
+<div class="row">
+
+</div>
+-->
+
