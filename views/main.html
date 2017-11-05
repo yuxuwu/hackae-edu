@@ -1,42 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
+    color: 
 <head>
+        
     <title>Insert Page Name Here</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+   <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">-->
+    <link rel="stylesheet" href="styles/style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 <body>
+        
     <!--Navbar-->
     <nav>
         <div class="nav-wrapper">
-            <a href="/" class="brand-logo">Logo</a>
+           <!-- <a href="/" class="brand-logo">Logo</a>!-->
             <ul id="nav-mobile" class="right hide-on-med-and-down">
                 <li><a href="#">Returning Users</a></li>
             </ul>
         </div>
     </nav>
+    <div class="welcome">Welcome to our site!</div> 
 
     <!--Grid-->
-    <div class="row" id="main_row">
-        <!--Image-->
-        <div class="col s6">
-            <img width="550" height="350" src="assets/main_page.jpg">
+  
+    <div class="quote-box">
+            <div class="quote-text">
+              <i class="fa fa-quote-left"></i>Are you a...
+            </div>
+            <div class="quote-author">
+              - <span id="author"></span>
+            </div>
+            
+            <div class="buttons">
+             <!-- <a class="button" id="tweet-quote" title="Tweet this quote!" target="_blank">
+                <i class="fa fa-twitter"></i>
+              </a> !-->
+              <button class="button" id="new-quote">Student</button><br>
+              <button class="button" id="new-quote">Organization</button>
+            </div>
+        <!--  </div>
+          <div class="footer">
+            by yuxuwu
+          </div> !-->
+
+<!--
+    <div class="col s12 m7">
+        <div class="card horizontal">
+          <div class="card-image">
+            <img src="assets/main_page.jpg">
+          </div>
+          <div class="card-stacked">
+            <div class="card-content">
+                <h2>Are you a ...</h2>
+            </div>
+            <div class="card-action">
+                <a class="waves-effect waves-light btn">Student</a>
+                <a class="waves-effect waves-light btn">Organization</a>
+                
+            </div>
+          </div>
         </div>
-        <!--Content-->
-        <div class="col s6 center-align">
-            <h2>Are you a ...</h2>
-            <button id="student_btn">Student</button>
-            <button onClick="location.href='org_register'">Organization</button>
-        </div>
-    </div>
+      </div>
+    -->
+
+
+
+
 
     <script>
-        //student button listener
-        document.getElementById("student_btn")
-            .addEventListener("click", function(){
-               //manipulate box here 
-            });
-
+        
     </script>
 
 </body>
